@@ -100,12 +100,14 @@ Exemplo
 
 Veiculo.java
 
-[imagem veiculo]
+![image](https://github.com/maikcosta/Exam-1Z0-811/assets/40438219/3e940a12-3d95-4f31-91a2-7038baffde77)
+
 
 Já alterando a visibilidade da classe apresenta os alertas indicando que a classe publica não pode ter o nome diferente do nome do arquivo no exemplo abaixo.
 
 
-[imagem veiculo]
+![image](https://github.com/maikcosta/Exam-1Z0-811/assets/40438219/5d34c40f-9811-4f14-bde3-0fb001be90bb)
+
 
 Podemos dentro da mesma classe public ter mais classes, porém, somente uma poderá ser pública.
 
@@ -128,11 +130,11 @@ public static void main(String args...) {  ❌
 
 Como são iniciadas as sequência de leitura do programa.
 
-Atributos e Blocos inicializadores da instância são executados na ordem que aparecem no arquivo.
-O Construtor é executado somente após a execução do item anterior.
+1. Atributos e Blocos inicializadores da instância são executados na ordem que aparecem no arquivo.
 
-[imagem Ordem Inicialização]
+2. O Construtor é executado somente após a execução do item anterior.
 
+![image](https://github.com/maikcosta/Exam-1Z0-811/assets/40438219/a23faa1c-4f64-4b2d-9333-0f4b16312eb7)
 
 
 ## Garbage Collection
@@ -227,12 +229,13 @@ Tipos de dados pegadinhas prova de certificação
 
 Compatíveis : no caso abaixo o tipo é o mesmo.
 
-[image 1]
+![image](https://github.com/maikcosta/Exam-1Z0-811/assets/40438219/45ee70c2-dcf8-4808-aa5d-e56ce64f5649)
 
 
 Incompatíveis: No caso abaixo temos tipos diferentes
 
-[Imagem2]
+![image](https://github.com/maikcosta/Exam-1Z0-811/assets/40438219/f420fa2b-8d45-4e1a-aeb9-1d1dcdc36dc4)
+
 
 
 ## Strings
@@ -384,11 +387,12 @@ São métodos anônimos que implementam uma interface funcional.
 Exemplo
 
 
-[imagem]
+![image](https://github.com/maikcosta/Exam-1Z0-811/assets/40438219/bc178e75-49b3-450d-956f-b3317253a92f)
+
 
 ## Métodos e assinaturas
 
-[imagem]
+![image](https://github.com/maikcosta/Exam-1Z0-811/assets/40438219/1e899352-a626-4e41-a6b6-dba869932728)
 
 
 ## Vargas
@@ -397,9 +401,13 @@ O vargas deve ser sempre o último parâmetro do método e só poderá ter um em
 Exemplos:
 
 public void walk (int … nums){} ✅
+
 public void walk1 (int start , int … nums){} ✅
+
 public void walk (int… nums, int start){} ❌
+
 public void walk (int …start, int… nums){} ❌
+
 
 ## O que é o super()
 
